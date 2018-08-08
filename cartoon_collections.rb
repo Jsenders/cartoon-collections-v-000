@@ -1,8 +1,6 @@
-def roll_call_dwarves# code an argument here
-hash = hash.new
-%w(Doc Dopey Bashful Grumpy).each_with_index {|item , index|
-hash[item] = index }
-hash 
+def roll_call_dwarves(dwarves)# code an argument here
+dwarves.each_with_index do |dwarf , index|
+  puts /(index+1).(dwarf)/
 end
 
 def summon_captain_planet# code an argument here
