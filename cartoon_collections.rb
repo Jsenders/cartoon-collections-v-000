@@ -11,7 +11,7 @@ end
 end
 
 def long_planeteer_calls(calls)
-calls.any?
+calls.any? {|call| call.to_s.length > 4}
 end
 end
 
